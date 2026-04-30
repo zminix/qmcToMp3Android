@@ -19,19 +19,19 @@ public class Util {
 //            logDir.mkdir();
 //        }
         fileName = dir + "/" + fileName;
-        if (fileName.endsWith(" [qmms]"){
+        if (fileName.endsWith(" [qmms]")){
             //处理" [qmms]"
             return fileName.replace(" [qmms]",".mp3");
 
-        } if (fileName.endsWith(" [qmms].qmc3"){
+        } if (fileName.endsWith(" [qmms].qmc3")){
             //处理" [qmms].qmc3"
             return fileName.replace(" [qmms].qmc3",".mp3");
 
-        }else if (fileName.endsWith(" [qmms2].qmc0"){
+        }else if (fileName.endsWith(" [qmms2].qmc0")){
             //处理" [qmms2].qmc0"
             return fileName.replace(" [qmms2].qmc0",".mp3");
 
-        } else if (fileName.endsWith(" [qmms2].qmcflac"){
+        } else if (fileName.endsWith(" [qmms2].qmcflac")){
             //处理" [qmms2].qmcflac"
             return fileName.replace(" [qmms2].qmcflac",".flac");
 
